@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+    background-color: #fdde7e;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 10px;
+}
+
+.container {
+    width: 1140px;
+    max-width: 96%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    margin: 30px 15px;
+    text-align: center;
+    min-width: 360px;
+    max-width: 360px;
+    height: 450px;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.card__price {
+    display: block;
+    color: #13a066;
+    font-weight: bold;
+    font-size: 6em;
+    margin-bottom: 10px;
+}
+
+.card__title {
+    font-size: 5em;
+    font-weight: normal;
+    color: #333333;
+    margin: 20px 0;
+}
+
+.card__subtitle {
+    justify-content: center;
+    font-weight: 300;
+    font-size: 2em;
+    max-width: 160px;
+    margin: 0 auto;
+}
+
+.card__img {
+    padding-left: 10px;
+}
+
+.card--height {
+    height: 500px;
+}
